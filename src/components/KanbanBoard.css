@@ -1,0 +1,16 @@
+
+.kanban-column-container{
+    width: 100%;
+    padding: 10px 40px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 0 10px;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
+
+@media (max-width:576px) {
+    .kanban-column-container{
+        padding: 5px 18px;
+    }
+}

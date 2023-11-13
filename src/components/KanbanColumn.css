@@ -1,0 +1,39 @@
+.kanbanColumn{
+    /* width: 19%; */
+    flex: 1;
+    /* background-color: #fff; */
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+    padding: 15px 0;
+}
+.column-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    padding-bottom: 10px;
+}
+.column-heading-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 8px;
+}
+.column-heading-left>p{
+    font-size: 14px;
+}
+.column-heading-text{
+    font-weight: 600;
+}
+.column-heading-right{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+@media (max-width:576px) {
+    .column-heading{
+        padding-bottom: 1px;
+    }
+}
